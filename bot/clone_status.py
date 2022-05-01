@@ -4,8 +4,8 @@ class CloneStatus:
     def __init__(self, size=0):
         self.size = size
         self.name = ''
-        self.status = False
-        self.checking = False
+        self.status = True
+        self.checking = True
         self.MainFolderName = ''
         self.MainFolderLink = ''
         self.DestinationFolderName = ''
